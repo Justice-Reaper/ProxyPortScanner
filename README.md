@@ -1,4 +1,4 @@
-# HttpProxyPortScanner
+# http-proxy-port-scanner
 This Bash script allows scanning for open ports on a specific target using an HTTP proxy
 
 # Features
@@ -9,12 +9,12 @@ This Bash script allows scanning for open ports on a specific target using an HT
 # Dependencies
 - The following dependencies must be installed
 ```
-sudo apt install -y git curl sed xclip gawk coreutils              
+sudo apt install -y git curl sed wl-clipboard gawk coreutils              
 ```
 
 # Example
 ```
-./HttpProxyPortScanner.sh
+./http-proxy-port-scanner
 
 ██╗  ██╗████████╗████████╗██████╗     ██████╗ ██████╗  ██████╗ ██╗  ██╗██╗   ██╗    ██████╗  ██████╗ ██████╗ ████████╗    ███████╗ ██████╗ █████╗ ███╗   ██╗███╗   ██╗███████╗██████╗ 
 ██║  ██║╚══██╔══╝╚══██╔══╝██╔══██╗    ██╔══██╗██╔══██╗██╔═══██╗╚██╗██╔╝╚██╗ ██╔╝    ██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝    ██╔════╝██╔════╝██╔══██╗████╗  ██║████╗  ██║██╔════╝██╔══██╗
